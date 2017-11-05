@@ -9,7 +9,7 @@ var filesToCache = [
   '/img/golang.png',
   '/img/grpc.png',
   '/img/laravel.png',
-  '/img/profile.png',
+  '/img/profile.png'
 ];
 
 self.addEventListener('activate', function(e) {
