@@ -1,37 +1,30 @@
-var cacheName = 'Jihar Al Gifari';
-var filesToCache = [
-  '/',
-  '/css/style.css',
-  '/img/work.png',
-  '/img/android.png',
-  '/img/cockroachDB.png',
-  '/img/docker.png',
-  '/img/golang.png',
-  '/img/grpc.png',
-  '/img/laravel.png',
-  '/img/profile.png'
-];
+let version = '0.1';
 
-self.addEventListener('activate', function(e) {
-  console.log('[ServiceWorker] Activate');
+self.addEventListener('install', e => {
+  let timeStamp = Date.now();
   e.waitUntil(
-    caches.keys().then(function(keyList) {
-      return Promise.all(keyList.map(function(key) {
-        if (key !== cacheName) {
-          console.log('[ServiceWorker] Removing old cache', key);
-          return caches.delete(key);
-        }
-      }));
+    caches.open('Jihar').then(cache => {
+      return cache.addAll([
+        `/`,
+        `/img/android.png?timestamp=${timeStamp}`,
+        `/css/style.css?timestamp=${timeStamp}`,
+        `/img/profile.jpg?timestamp=${timeStamp}`,
+        `/img/golang.png?timestamp=${timeStamp}`,
+        `/img/laravel.png?timestamp=${timeStamp}`
+      ])
+      .then(() => self.skipWaiting());
     })
-  );
-  return self.clients.claim();
+  )
 });
 
-self.addEventListener('fetch', function(e) {
-  console.log('[ServiceWorker] Fetch', e.request.url);
-  e.respondWith(
-    caches.match(e.request).then(function(response) {
-      return response || fetch(e.request);
+self.addEventListener('activate',  event => {
+  event.waitUntil(self.clients.claim());
+});
+
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request, {ignoreSearch:true}).then(response => {
+      return response || fetch(event.request);
     })
   );
 });
