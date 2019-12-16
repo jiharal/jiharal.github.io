@@ -29,5 +29,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/about/</guid>
+      <description>this.myName() # Jihar Al Gifari this.myBirtdate() # Jun 28, 1997 this.myHobbies() # Traveling and Coding </description>
+    </item>
+    
   </channel>
 </rss>
