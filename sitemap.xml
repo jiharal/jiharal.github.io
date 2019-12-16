@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jiharal.github.io/categories/</loc>
+    <lastmod>2019-12-17T04:52:36+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/general/</loc>
+    <lastmod>2019-12-17T04:52:36+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jiharal.github.io/posts/hello/</loc>
     <lastmod>2019-12-17T04:52:36+07:00</lastmod>
   </url>
@@ -18,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://jiharal.github.io/categories/coding/</loc>
+    <lastmod>2019-12-17T04:26:25+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jiharal.github.io/posts/my-first-post/</loc>
     <lastmod>2019-12-17T04:26:25+07:00</lastmod>
   </url>
@@ -25,10 +40,6 @@
   <url>
     <loc>https://jiharal.github.io/posts/about/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/categories/</loc>
   </url>
   
   <url>

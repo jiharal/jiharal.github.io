@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general on Jihar Al Gifari</title>
+    <link>https://jiharal.github.io/categories/general/</link>
+    <description>Recent content in general on Jihar Al Gifari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Dec 2019 04:52:36 +0700</lastBuildDate>
+    
+	<atom:link href="https://jiharal.github.io/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello</title>
+      <link>https://jiharal.github.io/posts/hello/</link>
+      <pubDate>Tue, 17 Dec 2019 04:52:36 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/hello/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
