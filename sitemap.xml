@@ -4,31 +4,47 @@
   
   <url>
     <loc>https://jiharal.github.io/categories/</loc>
-    <lastmod>2019-12-17T06:16:11+07:00</lastmod>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/go/</loc>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/golang/</loc>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jiharal.github.io/</loc>
-    <lastmod>2019-12-17T06:16:11+07:00</lastmod>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/posts/pengetahuan-dasar-seorang-programmer/</loc>
-    <lastmod>2019-12-17T06:16:11+07:00</lastmod>
+    <loc>https://jiharal.github.io/tags/palindrome/</loc>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/palindrome-in-go/</loc>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jiharal.github.io/posts/</loc>
-    <lastmod>2019-12-17T06:16:11+07:00</lastmod>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/categories/umum/</loc>
-    <lastmod>2019-12-17T06:16:11+07:00</lastmod>
+    <loc>https://jiharal.github.io/tags/problem-solving/</loc>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jiharal.github.io/tags/</loc>
+    <lastmod>2019-12-17T10:18:26+07:00</lastmod>
   </url>
   
 </urlset>

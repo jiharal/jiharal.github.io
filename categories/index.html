@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jiharal.github.io/categories/" />
-<meta property="og:updated_time" content="2019-12-17T06:16:11+07:00" />
+<meta property="og:updated_time" content="2019-12-17T10:18:26+07:00" />
 <meta itemprop="name" content="Categories">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Categories"/>
@@ -118,8 +118,8 @@
     <section class="ph4">
       
         <h2 class="f1">
-          <a href="/categories/umum" class="link blue hover-black">
-            Category: umum
+          <a href="/categories/go" class="link blue hover-black">
+            Category: go
           </a>
         </h2>
         
@@ -127,14 +127,13 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="https://jiharal.github.io/posts/pengetahuan-dasar-seorang-programmer/" class="link black dim">
-        Pengetahuan Dasar Seorang Programmer
+      <a href="https://jiharal.github.io/posts/palindrome-in-go/" class="link black dim">
+        Palindrome in Go
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Buat kamu yang mempunyai keinginan untuk menjadi seorang programmer, hal pertama yang perlu kamu miliki dan pelari ialah;
-Pelajari dasar logika  Dalam dunia pemrograman khususnya dalam pengembangan aplikasi kamu tidak jauh dari logika-logika dasar. Kamu perlu memiliki basis yang kuat disini, coba banyangkan jika kamu membuat sebuah aplikasi tanpa didasari logika yang benar betapa kacaunya aplikasi mu wkwkw. Apa saja yang perlu kamu pelajari disini.
-  Operator aritmatika  + [jumlah] operasi penjumlahan - [kurang] operasi pengurangan * [kali] operasi perkalian / [bagi] operasi pembagian % [mod] operasi modulo   Operator Pembanding  &gt; [lebih besar] &lt; [lebih kecil] &gt;= [ lebih besar sama dengan] &lt;= [ lebih kecil sama dengan] &lt;&gt; [ tidak sama dengan] !
+      Palindrome Palindrom adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang (spasi antara huruf-huruf biasanya diperbolehkan). Kata &ldquo;palindrom&rdquo; berasal dari bahasa Yunani: palin (πάλιν; &ldquo;lagi&rdquo;) and dromos (δρóμος; &ldquo;arah&rdquo;).wikipedia
+package main import ( &#34;fmt&#34; ) func main() { fmt.Println(palindrome(&#34;Hello&#34;)) fmt.Println(palindrome(&#34;abcba&#34;)) fmt.Println(palindrome(&#34;coba&#34;)) fmt.Println(palindrome(&#34;kamak&#34;)) } func palindrome(s string) bool { for i:=0; i&lt;len(s)/2; i++ { if s[i] != s[len(s)-i-1] { return false } } return true } PlayGolang
     </div>
   </div>
 </div>

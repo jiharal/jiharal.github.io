@@ -6,20 +6,19 @@
     <description>Recent content in Posts on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Dec 2019 06:16:11 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2019 10:18:26 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Pengetahuan Dasar Seorang Programmer</title>
-      <link>https://jiharal.github.io/posts/pengetahuan-dasar-seorang-programmer/</link>
-      <pubDate>Tue, 17 Dec 2019 06:16:11 +0700</pubDate>
+      <title>Palindrome in Go</title>
+      <link>https://jiharal.github.io/posts/palindrome-in-go/</link>
+      <pubDate>Tue, 17 Dec 2019 10:18:26 +0700</pubDate>
       
-      <guid>https://jiharal.github.io/posts/pengetahuan-dasar-seorang-programmer/</guid>
-      <description>Buat kamu yang mempunyai keinginan untuk menjadi seorang programmer, hal pertama yang perlu kamu miliki dan pelari ialah;
-Pelajari dasar logika  Dalam dunia pemrograman khususnya dalam pengembangan aplikasi kamu tidak jauh dari logika-logika dasar. Kamu perlu memiliki basis yang kuat disini, coba banyangkan jika kamu membuat sebuah aplikasi tanpa didasari logika yang benar betapa kacaunya aplikasi mu wkwkw. Apa saja yang perlu kamu pelajari disini.
-  Operator aritmatika  + [jumlah] operasi penjumlahan - [kurang] operasi pengurangan * [kali] operasi perkalian / [bagi] operasi pembagian % [mod] operasi modulo   Operator Pembanding  &amp;gt; [lebih besar] &amp;lt; [lebih kecil] &amp;gt;= [ lebih besar sama dengan] &amp;lt;= [ lebih kecil sama dengan] &amp;lt;&amp;gt; [ tidak sama dengan] !</description>
+      <guid>https://jiharal.github.io/posts/palindrome-in-go/</guid>
+      <description>Palindrome Palindrom adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang (spasi antara huruf-huruf biasanya diperbolehkan). Kata &amp;ldquo;palindrom&amp;rdquo; berasal dari bahasa Yunani: palin (πάλιν; &amp;ldquo;lagi&amp;rdquo;) and dromos (δρóμος; &amp;ldquo;arah&amp;rdquo;).wikipedia
+package main import ( &amp;#34;fmt&amp;#34; ) func main() { fmt.Println(palindrome(&amp;#34;Hello&amp;#34;)) fmt.Println(palindrome(&amp;#34;abcba&amp;#34;)) fmt.Println(palindrome(&amp;#34;coba&amp;#34;)) fmt.Println(palindrome(&amp;#34;kamak&amp;#34;)) } func palindrome(s string) bool { for i:=0; i&amp;lt;len(s)/2; i++ { if s[i] != s[len(s)-i-1] { return false } } return true } PlayGolang</description>
     </item>
     
   </channel>
