@@ -6,10 +6,20 @@
     <description>Recent content on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 05:45:28 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 22:43:05 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anagram</title>
+      <link>https://jiharal.github.io/posts/anagram/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/anagram/</guid>
+      <description>Anagram teori Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode. Permainan yang menggunakan anagram antara lain adalah scrabble dan boggle.Wikipedia
+Studi kasus Dalam tantangan ini, Anda akan diberikan string. Anda harus membaginya menjadi dua substring yang berdekatan, kemudian menentukan jumlah karakter minimum yang harus diubah untuk membuat dua substring menjadi anagram satu sama lain.</description>
+    </item>
     
     <item>
       <title>Struktur Data dan Algoritma</title>

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 05:45:28 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 22:43:05 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>anagram</title>
+      <link>https://jiharal.github.io/tags/anagram/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/anagram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>problem solving</title>
+      <link>https://jiharal.github.io/tags/problem-solving/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/problem-solving/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Algoritma</title>
@@ -71,15 +89,6 @@
       <pubDate>Tue, 17 Dec 2019 10:18:26 +0700</pubDate>
       
       <guid>https://jiharal.github.io/tags/palindrome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>problem solving</title>
-      <link>https://jiharal.github.io/tags/problem-solving/</link>
-      <pubDate>Tue, 17 Dec 2019 10:18:26 +0700</pubDate>
-      
-      <guid>https://jiharal.github.io/tags/problem-solving/</guid>
       <description></description>
     </item>
     

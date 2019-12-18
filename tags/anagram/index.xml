@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anagram on Jihar Al Gifari</title>
+    <link>https://jiharal.github.io/tags/anagram/</link>
+    <description>Recent content in anagram on Jihar Al Gifari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Dec 2019 22:43:05 +0700</lastBuildDate>
+    
+	<atom:link href="https://jiharal.github.io/tags/anagram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anagram</title>
+      <link>https://jiharal.github.io/posts/anagram/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/anagram/</guid>
+      <description>Anagram teori Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode. Permainan yang menggunakan anagram antara lain adalah scrabble dan boggle.Wikipedia
+Studi kasus Dalam tantangan ini, Anda akan diberikan string. Anda harus membaginya menjadi dua substring yang berdekatan, kemudian menentukan jumlah karakter minimum yang harus diubah untuk membuat dua substring menjadi anagram satu sama lain.</description>
+    </item>
+    
+  </channel>
+</rss>

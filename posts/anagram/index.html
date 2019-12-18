@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Jihar Al Gifari  | Anagram</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.61.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Anagram" />
+<meta property="og:description" content="Anagram teori Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode. Permainan yang menggunakan anagram antara lain adalah scrabble dan boggle.Wikipedia
+Studi kasus Dalam tantangan ini, Anda akan diberikan string. Anda harus membaginya menjadi dua substring yang berdekatan, kemudian menentukan jumlah karakter minimum yang harus diubah untuk membuat dua substring menjadi anagram satu sama lain." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jiharal.github.io/posts/anagram/" />
+<meta property="article:published_time" content="2019-12-18T22:43:05+07:00" />
+<meta property="article:modified_time" content="2019-12-18T22:43:05+07:00" />
+<meta itemprop="name" content="Anagram">
+<meta itemprop="description" content="Anagram teori Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode. Permainan yang menggunakan anagram antara lain adalah scrabble dan boggle.Wikipedia
+Studi kasus Dalam tantangan ini, Anda akan diberikan string. Anda harus membaginya menjadi dua substring yang berdekatan, kemudian menentukan jumlah karakter minimum yang harus diubah untuk membuat dua substring menjadi anagram satu sama lain.">
+<meta itemprop="datePublished" content="2019-12-18T22:43:05&#43;07:00" />
+<meta itemprop="dateModified" content="2019-12-18T22:43:05&#43;07:00" />
+<meta itemprop="wordCount" content="221">
+
+
+
+<meta itemprop="keywords" content="anagram,problem solving," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Anagram"/>
+<meta name="twitter:description" content="Anagram teori Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode. Permainan yang menggunakan anagram antara lain adalah scrabble dan boggle.Wikipedia
+Studi kasus Dalam tantangan ini, Anda akan diberikan string. Anda harus membaginya menjadi dua substring yang berdekatan, kemudian menentukan jumlah karakter minimum yang harus diubah untuk membuat dua substring menjadi anagram satu sama lain."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://jiharal.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Jihar Al Gifari
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts" title="Blogs page">
+              Blogs
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/categories" title="Categories page">
+              Categories
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Anagram</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-12-18T22:43:05&#43;07:00">December 18, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="anagram-teori">Anagram teori</h2>
+<p>Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode. Permainan yang menggunakan anagram antara lain adalah scrabble dan boggle.<a href="https://id.wikipedia.org/wiki/Anagram">Wikipedia</a></p>
+<h2 id="studi-kasus">Studi kasus</h2>
+<p>Dalam tantangan ini, Anda akan diberikan string. Anda harus membaginya menjadi dua substring yang berdekatan, kemudian menentukan jumlah karakter minimum yang harus diubah untuk membuat dua substring menjadi anagram satu sama lain.</p>
+<p>Misalnya, mengingat string &lsquo;abccde&rsquo;, Anda akan memecahnya menjadi dua bagian: &lsquo;abc&rsquo; dan &lsquo;cde&rsquo;. Perhatikan bahwa semua huruf telah digunakan, substring bersebelahan dan panjangnya sama. Sekarang Anda dapat mengubah &lsquo;a&rsquo; dan &lsquo;b&rsquo; di substring pertama menjadi &lsquo;d&rsquo; dan &lsquo;e&rsquo; untuk memiliki &lsquo;dec&rsquo; dan &lsquo;cde&rsquo; yang merupakan anagram. Diperlukan dua perubahan.</p>
+<p>Buatlah fungsi anagram untuk mengembalikan jumlah karakter minimum untuk membuat kata-kata anagram, kembalikan -1 jika tidak memungkinkan.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">
+<span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+
+<span style="color:#f92672">import</span> (
+	<span style="color:#e6db74">&#34;fmt&#34;</span>
+	<span style="color:#e6db74">&#34;strings&#34;</span>
+)
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">Anagram</span>(<span style="color:#e6db74">&#34;abccba&#34;</span>))
+	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">Anagram</span>(<span style="color:#e6db74">&#34;aaabbb&#34;</span>))
+}
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">Anagram</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">int32</span> {
+	<span style="color:#a6e22e">val1</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">s</span>[:len(<span style="color:#a6e22e">s</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>]
+	<span style="color:#a6e22e">val2</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">s</span>[len(<span style="color:#a6e22e">s</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>:]
+	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">count</span> <span style="color:#66d9ef">int32</span> = <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">s</span>)<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+	} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> string(<span style="color:#a6e22e">val1</span>) <span style="color:#f92672">==</span> string(<span style="color:#a6e22e">val2</span>) {
+		<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+	}
+
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">a</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">val1</span> {
+		<span style="color:#a6e22e">index</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Index</span>(<span style="color:#a6e22e">val2</span>, string(<span style="color:#a6e22e">a</span>))
+		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">index</span> <span style="color:#f92672">==</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> {
+			<span style="color:#a6e22e">count</span> = <span style="color:#a6e22e">count</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+		} <span style="color:#66d9ef">else</span> {
+			<span style="color:#a6e22e">val2</span> = <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;%s%s&#34;</span>, <span style="color:#a6e22e">val2</span>[:<span style="color:#a6e22e">index</span>], <span style="color:#a6e22e">val2</span>[<span style="color:#a6e22e">index</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>:])
+		}
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">count</span>
+}
+
+</code></pre></div><p>Cek di <a href="https://play.golang.org/p/AZ5CdpLkgy5">Playgolang</a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/anagram" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">anagram</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/problem-solving" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">problem solving</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/palindrome-in-go/">Palindrome in Go</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jiharal.github.io/" >
+    &copy; 2019 Jihar Al Gifari
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
