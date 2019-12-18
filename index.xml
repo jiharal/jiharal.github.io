@@ -6,10 +6,20 @@
     <description>Recent content on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Dec 2019 20:24:58 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 05:45:28 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Struktur Data dan Algoritma</title>
+      <link>https://jiharal.github.io/posts/struktur-data-dan-algoritma/</link>
+      <pubDate>Wed, 18 Dec 2019 05:45:28 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/struktur-data-dan-algoritma/</guid>
+      <description>Algoritma adalah prosedur langkah demi langkah, yang mendefinisikan serangkaian instruksi yang akan dieksekusi dalam urutan tertentu untuk mendapatkan output yang diinginkan.
+Struktur data adalah sebuah cara sistematik untuk mengorganisir data agar data dapat dengan digunakan dengan mudah dan efisien. Ada dua istilah dasar dalam struktur data diantaranya Interface and Implementation. Setiap struktur data mempunyai interface. Interface merepresentasikan serangkaian operasi-operasi yang didukung oleh struktur data itu sendiri. Interface menyediakan daftar dari operasi yang didukung, type dan parameter yang dapat di terima dan dikembalikan oleh jenis operasi itu sendiri.</description>
+    </item>
     
     <item>
       <title>Object Oriented Programming (OOP)</title>

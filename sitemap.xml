@@ -3,13 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jiharal.github.io/tags/algoritma/</loc>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jiharal.github.io/categories/</loc>
-    <lastmod>2019-12-17T20:24:58+07:00</lastmod>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/data-structures/</loc>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jiharal.github.io/</loc>
-    <lastmod>2019-12-17T20:24:58+07:00</lastmod>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/</loc>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/struktur-data/</loc>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/struktur-data-dan-algoritma/</loc>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/</loc>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/teori/</loc>
+    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
   </url>
   
   <url>
@@ -24,21 +59,6 @@
   
   <url>
     <loc>https://jiharal.github.io/tags/oop/</loc>
-    <lastmod>2019-12-17T20:24:58+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/posts/</loc>
-    <lastmod>2019-12-17T20:24:58+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/tags/</loc>
-    <lastmod>2019-12-17T20:24:58+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/categories/teori/</loc>
     <lastmod>2019-12-17T20:24:58+07:00</lastmod>
   </url>
   
