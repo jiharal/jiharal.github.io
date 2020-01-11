@@ -6,10 +6,45 @@
     <description>Recent content in teori on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 05:45:28 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 19:59:47 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/categories/teori/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://jiharal.github.io/posts/microservices/</link>
+      <pubDate>Sat, 11 Jan 2020 19:59:47 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/microservices/</guid>
+      <description>Apa itu microservices. Microservices adalah sebuah metodologi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung.
+Konsep dalam pengembangan layanan mikroservices. Dalam arsitektur service-oriented. seluruh paket aplikasi akan dibagi menjadi beberapa unit bisnis kecil yang saling berhubungan.
+Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
+ Independent, Setiap layanan harus digunakan secara independen.</description>
+    </item>
+    
+    <item>
+      <title>Apa Itu Kubernetes</title>
+      <link>https://jiharal.github.io/posts/apa-itu-kubernetes/</link>
+      <pubDate>Sun, 05 Jan 2020 21:02:32 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/apa-itu-kubernetes/</guid>
+      <description>Yang perlu di pahami sebelum belajar mengenai kubernetes.
+Ada baiknya sebelum membaca lanjut mengenai kubernetes kamu harus memahami dahulu Docker, Dasar jaringan, dan Protokol komunikasi.
+Apa itu kubernetes
+Kubernetes adalah sebuah platform yang digunakan untuk mengelola kontainer. Selain dari fungsinya untuk mengelola kontainer kubernetes juga open source. Kubernetes sangat bermanfaat ketika dalam sebuah aplikasi memiliki beban pekerjaan yang tinggi. x</description>
+    </item>
+    
+    <item>
+      <title>Thread-Pool</title>
+      <link>https://jiharal.github.io/posts/golang/thread-pool/</link>
+      <pubDate>Sun, 05 Jan 2020 21:02:32 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/golang/thread-pool/</guid>
+      <description>Worker Thread-Pool utilizing channels instead. Thread  Thread adalah jalan atau cara dari sebuah program untuk membagi dua atau lebih secara bersamaan dalam menjalankan tugas.
+ Thread pool  Adalah kumpulan thread yang mengatur thread yang ada pada queue(antrian) dan akan mengeksekusi thread tersebut hingga tuntas.
+ </description>
+    </item>
     
     <item>
       <title>Struktur Data dan Algoritma</title>

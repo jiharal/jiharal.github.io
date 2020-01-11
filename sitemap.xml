@@ -3,6 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jiharal.github.io/categories/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/microservices/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/microservices/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/microservices/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/teori/</loc>
+    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/apa-itu-kubernetes/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/cara-mudah-memahami-kubernetes/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/kubernetes/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/kubernetes-dasar/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/pengenalan-kubernetes/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/teori-kubernetes/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/thread/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/thread/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/golang/thread-pool/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/thread-pool/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/thread-pool/</loc>
+    <lastmod>2020-01-05T21:02:32+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jiharal.github.io/posts/anagram/</loc>
     <lastmod>2019-12-18T22:43:05+07:00</lastmod>
   </url>
@@ -13,7 +108,22 @@
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/categories/</loc>
+    <loc>https://jiharal.github.io/categories/financial/</loc>
+    <lastmod>2019-12-18T22:43:05+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/financial/</loc>
+    <lastmod>2019-12-18T22:43:05+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/1-financialmanagement/</loc>
+    <lastmod>2019-12-18T22:43:05+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/financial-management/</loc>
     <lastmod>2019-12-18T22:43:05+07:00</lastmod>
   </url>
   
@@ -23,22 +133,22 @@
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/</loc>
+    <loc>https://jiharal.github.io/categories/management/</loc>
     <lastmod>2019-12-18T22:43:05+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/posts/</loc>
+    <loc>https://jiharal.github.io/tags/mba/</loc>
+    <lastmod>2019-12-18T22:43:05+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/mba/</loc>
     <lastmod>2019-12-18T22:43:05+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jiharal.github.io/tags/problem-solving/</loc>
-    <lastmod>2019-12-18T22:43:05+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/tags/</loc>
     <lastmod>2019-12-18T22:43:05+07:00</lastmod>
   </url>
   
@@ -59,11 +169,6 @@
   
   <url>
     <loc>https://jiharal.github.io/posts/struktur-data-dan-algoritma/</loc>
-    <lastmod>2019-12-18T05:45:28+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/categories/teori/</loc>
     <lastmod>2019-12-18T05:45:28+07:00</lastmod>
   </url>
   
@@ -95,6 +200,41 @@
   <url>
     <loc>https://jiharal.github.io/posts/palindrome-in-go/</loc>
     <lastmod>2019-12-17T10:18:26+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/2-marketingmanagement/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/3-leadershipandorganizationalbehavior/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/4-businessethics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/5-technologyandoperationsmanagement/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/6-leadershipcommunication/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/7-strategicmanagement/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/mba/8-generalbusinessenvironment/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

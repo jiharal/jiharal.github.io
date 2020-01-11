@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubernetes on Jihar Al Gifari</title>
+    <link>https://jiharal.github.io/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on Jihar Al Gifari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jan 2020 21:02:32 +0700</lastBuildDate>
+    
+	<atom:link href="https://jiharal.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apa Itu Kubernetes</title>
+      <link>https://jiharal.github.io/posts/apa-itu-kubernetes/</link>
+      <pubDate>Sun, 05 Jan 2020 21:02:32 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/apa-itu-kubernetes/</guid>
+      <description>Yang perlu di pahami sebelum belajar mengenai kubernetes.
+Ada baiknya sebelum membaca lanjut mengenai kubernetes kamu harus memahami dahulu Docker, Dasar jaringan, dan Protokol komunikasi.
+Apa itu kubernetes
+Kubernetes adalah sebuah platform yang digunakan untuk mengelola kontainer. Selain dari fungsinya untuk mengelola kontainer kubernetes juga open source. Kubernetes sangat bermanfaat ketika dalam sebuah aplikasi memiliki beban pekerjaan yang tinggi. x</description>
+    </item>
+    
+  </channel>
+</rss>

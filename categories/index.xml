@@ -6,10 +6,64 @@
     <description>Recent content in Categories on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 22:43:05 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 19:59:47 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>microservices</title>
+      <link>https://jiharal.github.io/categories/microservices/</link>
+      <pubDate>Sat, 11 Jan 2020 19:59:47 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/categories/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teori</title>
+      <link>https://jiharal.github.io/categories/teori/</link>
+      <pubDate>Sat, 11 Jan 2020 19:59:47 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/categories/teori/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thread</title>
+      <link>https://jiharal.github.io/categories/thread/</link>
+      <pubDate>Sun, 05 Jan 2020 21:02:32 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/categories/thread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thread-pool</title>
+      <link>https://jiharal.github.io/categories/thread-pool/</link>
+      <pubDate>Sun, 05 Jan 2020 21:02:32 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/categories/thread-pool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>financial</title>
+      <link>https://jiharal.github.io/categories/financial/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/categories/financial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>financial management</title>
+      <link>https://jiharal.github.io/categories/financial-management/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/categories/financial-management/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>go</title>
@@ -21,11 +75,20 @@
     </item>
     
     <item>
-      <title>teori</title>
-      <link>https://jiharal.github.io/categories/teori/</link>
-      <pubDate>Wed, 18 Dec 2019 05:45:28 +0700</pubDate>
+      <title>management</title>
+      <link>https://jiharal.github.io/categories/management/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
       
-      <guid>https://jiharal.github.io/categories/teori/</guid>
+      <guid>https://jiharal.github.io/categories/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mba</title>
+      <link>https://jiharal.github.io/categories/mba/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/categories/mba/</guid>
       <description></description>
     </item>
     

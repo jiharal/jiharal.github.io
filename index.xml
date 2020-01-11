@@ -6,10 +6,45 @@
     <description>Recent content on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 22:43:05 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 19:59:47 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://jiharal.github.io/posts/microservices/</link>
+      <pubDate>Sat, 11 Jan 2020 19:59:47 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/microservices/</guid>
+      <description>Apa itu microservices. Microservices adalah sebuah metodologi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung.
+Konsep dalam pengembangan layanan mikroservices. Dalam arsitektur service-oriented. seluruh paket aplikasi akan dibagi menjadi beberapa unit bisnis kecil yang saling berhubungan.
+Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
+ Independent, Setiap layanan harus digunakan secara independen.</description>
+    </item>
+    
+    <item>
+      <title>Apa Itu Kubernetes</title>
+      <link>https://jiharal.github.io/posts/apa-itu-kubernetes/</link>
+      <pubDate>Sun, 05 Jan 2020 21:02:32 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/apa-itu-kubernetes/</guid>
+      <description>Yang perlu di pahami sebelum belajar mengenai kubernetes.
+Ada baiknya sebelum membaca lanjut mengenai kubernetes kamu harus memahami dahulu Docker, Dasar jaringan, dan Protokol komunikasi.
+Apa itu kubernetes
+Kubernetes adalah sebuah platform yang digunakan untuk mengelola kontainer. Selain dari fungsinya untuk mengelola kontainer kubernetes juga open source. Kubernetes sangat bermanfaat ketika dalam sebuah aplikasi memiliki beban pekerjaan yang tinggi. x</description>
+    </item>
+    
+    <item>
+      <title>Thread-Pool</title>
+      <link>https://jiharal.github.io/posts/golang/thread-pool/</link>
+      <pubDate>Sun, 05 Jan 2020 21:02:32 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/golang/thread-pool/</guid>
+      <description>Worker Thread-Pool utilizing channels instead. Thread  Thread adalah jalan atau cara dari sebuah program untuk membagi dua atau lebih secara bersamaan dalam menjalankan tugas.
+ Thread pool  Adalah kumpulan thread yang mengatur thread yang ada pada queue(antrian) dan akan mengeksekusi thread tersebut hingga tuntas.
+ </description>
+    </item>
     
     <item>
       <title>Anagram</title>
@@ -19,6 +54,15 @@
       <guid>https://jiharal.github.io/posts/anagram/</guid>
       <description>Anagram teori Anagram adalah salah satu jenis permainan kata yang huruf-huruf di kata awal biasanya diacak untuk membentuk kata lain atau sebuah kalimat. Anagram sering dipakai sebagai kode. Permainan yang menggunakan anagram antara lain adalah scrabble dan boggle.Wikipedia
 Studi kasus Dalam tantangan ini, Anda akan diberikan string. Anda harus membaginya menjadi dua substring yang berdekatan, kemudian menentukan jumlah karakter minimum yang harus diubah untuk membuat dua substring menjadi anagram satu sama lain.</description>
+    </item>
+    
+    <item>
+      <title>Financial Management</title>
+      <link>https://jiharal.github.io/posts/mba/1-financialmanagement/</link>
+      <pubDate>Wed, 18 Dec 2019 22:43:05 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/1-financialmanagement/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -49,6 +93,69 @@ Ada beberapa konsep dan prinsip yang membentuk dasar pemrograman berorientasi ob
       <guid>https://jiharal.github.io/posts/palindrome-in-go/</guid>
       <description>Palindrome Palindrom adalah sebuah kata, frasa, angka maupun susunan lainnya yang dapat dibaca dengan sama baik dari depan maupun belakang (spasi antara huruf-huruf biasanya diperbolehkan). Kata &amp;ldquo;palindrom&amp;rdquo; berasal dari bahasa Yunani: palin (πάλιν; &amp;ldquo;lagi&amp;rdquo;) and dromos (δρóμος; &amp;ldquo;arah&amp;rdquo;).wikipedia
 package main import ( &amp;#34;fmt&amp;#34; ) func main() { fmt.Println(palindrome(&amp;#34;Hello&amp;#34;)) fmt.Println(palindrome(&amp;#34;abcba&amp;#34;)) fmt.Println(palindrome(&amp;#34;coba&amp;#34;)) fmt.Println(palindrome(&amp;#34;kamak&amp;#34;)) } func palindrome(s string) bool { for i:=0; i&amp;lt;len(s)/2; i++ { if s[i] != s[len(s)-i-1] { return false } } return true } PlayGolang</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/mba/2-marketingmanagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/2-marketingmanagement/</guid>
+      <description>Marketing Management </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/mba/3-leadershipandorganizationalbehavior/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/3-leadershipandorganizationalbehavior/</guid>
+      <description>Leadership and Organizational Behavior </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/mba/4-businessethics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/4-businessethics/</guid>
+      <description>Business Ethics </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/mba/5-technologyandoperationsmanagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/5-technologyandoperationsmanagement/</guid>
+      <description>Technology and Operations Management </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/mba/6-leadershipcommunication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/6-leadershipcommunication/</guid>
+      <description>Leadership Communication </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/mba/7-strategicmanagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/7-strategicmanagement/</guid>
+      <description>Strategic Management </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jiharal.github.io/posts/mba/8-generalbusinessenvironment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/mba/8-generalbusinessenvironment/</guid>
+      <description>General Business Environment </description>
     </item>
     
   </channel>
