@@ -17,7 +17,7 @@
       <pubDate>Sat, 11 Jan 2020 19:59:47 +0700</pubDate>
       
       <guid>https://jiharal.github.io/posts/microservices/</guid>
-      <description>Apa itu microservices. Microservices adalah sebuah metodologi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung.
+      <description>Apa itu microservices. Microservices adalah sebuah metodelogi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke paket/unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung untuk memenuhi kebutuhan bisnis tertentu.
 Konsep dalam pengembangan layanan mikroservices. Dalam arsitektur service-oriented. seluruh paket aplikasi akan dibagi menjadi beberapa unit bisnis kecil yang saling berhubungan.
 Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
  Independent, Setiap layanan harus digunakan secara independen.</description>

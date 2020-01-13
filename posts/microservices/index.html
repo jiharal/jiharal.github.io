@@ -26,7 +26,7 @@
     
     
     <meta property="og:title" content="Microservices" />
-<meta property="og:description" content="Apa itu microservices. Microservices adalah sebuah metodologi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung.
+<meta property="og:description" content="Apa itu microservices. Microservices adalah sebuah metodelogi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke paket/unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung untuk memenuhi kebutuhan bisnis tertentu.
 Konsep dalam pengembangan layanan mikroservices. Dalam arsitektur service-oriented. seluruh paket aplikasi akan dibagi menjadi beberapa unit bisnis kecil yang saling berhubungan.
 Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
  Independent, Setiap layanan harus digunakan secara independen." />
@@ -35,19 +35,19 @@ Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
 <meta property="article:published_time" content="2020-01-11T19:59:47+07:00" />
 <meta property="article:modified_time" content="2020-01-11T19:59:47+07:00" />
 <meta itemprop="name" content="Microservices">
-<meta itemprop="description" content="Apa itu microservices. Microservices adalah sebuah metodologi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung.
+<meta itemprop="description" content="Apa itu microservices. Microservices adalah sebuah metodelogi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke paket/unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung untuk memenuhi kebutuhan bisnis tertentu.
 Konsep dalam pengembangan layanan mikroservices. Dalam arsitektur service-oriented. seluruh paket aplikasi akan dibagi menjadi beberapa unit bisnis kecil yang saling berhubungan.
 Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
  Independent, Setiap layanan harus digunakan secara independen.">
 <meta itemprop="datePublished" content="2020-01-11T19:59:47&#43;07:00" />
 <meta itemprop="dateModified" content="2020-01-11T19:59:47&#43;07:00" />
-<meta itemprop="wordCount" content="163">
+<meta itemprop="wordCount" content="453">
 
 
 
 <meta itemprop="keywords" content="microservices," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Microservices"/>
-<meta name="twitter:description" content="Apa itu microservices. Microservices adalah sebuah metodologi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung.
+<meta name="twitter:description" content="Apa itu microservices. Microservices adalah sebuah metodelogi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke paket/unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung untuk memenuhi kebutuhan bisnis tertentu.
 Konsep dalam pengembangan layanan mikroservices. Dalam arsitektur service-oriented. seluruh paket aplikasi akan dibagi menjadi beberapa unit bisnis kecil yang saling berhubungan.
 Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
  Independent, Setiap layanan harus digunakan secara independen."/>
@@ -135,18 +135,43 @@ Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.
     </header>
 
     <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="apa-itu-microservices">Apa itu microservices.</h2>
-<p>Microservices adalah sebuah metodologi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung.</p>
+<p>Microservices adalah sebuah metodelogi pengembangan aplikasi service-based. dengan metodologi ini, aplikasi aplikasi yang besar akan dipisah ke paket/unit-unit layanan terkecil. Mikroservice sendiri merupakan proses-proses dari implementasi SOA(Service Oriented Architecture) yang saling terhubung untuk memenuhi kebutuhan bisnis tertentu.</p>
 <h2 id="konsep-dalam-pengembangan-layanan-mikroservices">Konsep dalam pengembangan layanan mikroservices.</h2>
 <p>Dalam arsitektur service-oriented. seluruh paket aplikasi akan dibagi menjadi beberapa unit bisnis kecil yang saling berhubungan.</p>
 <p>Berikut beberapa aturan dalam mengembangkan aplikasi mikroservices.</p>
 <ul>
 <li>Independent, Setiap layanan harus digunakan secara independen.</li>
-<li>Coupling, Semua layanan harus bersifat longgar, sehinggal perubahan perubahan satu tidak akan mempengaruhi yang lain.</li>
+<li>Coupling, Semua layanan harus bersifat longgar, sehinggal perubahan perubahan satu layanan tidak akan mempengaruhi layana yang lain.</li>
 <li>Sasaran bisnis, setiap unit layanan dari seluruh aplikasi harus kecil dan mampu memberikan satu tujuan bisnis tertentu.</li>
 </ul>
-<h2 id="mari-kita-pahami-konsep-monolithyc-sama-sama">Mari kita pahami konsep monolithyc sama-sama.</h2>
-<p>Masing masing package aplikasi memiliki logikan bisnis dan kepentinganya masing masing. mereka saling berkomunikasi dan kadang menggunakan vendor third party untuk beberapa spesifik kebutuhan dari aplikasi. Meurut IBM, Aplikasi monolitik yang khas harus memiliki struktur modul secara internal dimana hanya satu titik akhir yang bertanggung jawab dalam mengangani semua permintaan/request dari pengguna. Berikut tentang monolitik
-<img src="/static/images/monolitik.png" alt="monolitik"></p>
+<h2 id="konsep-monolitik">Konsep monolitik</h2>
+<p>Singkatnya, Meurut IBM, Aplikasi monolitik merupakan struktur modul secara internal dimana hanya satu titik akhir yang bertanggung jawab dalam mengangani semua permintaan/request dari pengguna.</p>
+<p><img src="https://user-images.githubusercontent.com/21150538/72229770-bd6b5e00-35e3-11ea-88c3-8a3c362db9f8.png" alt="image"></p>
+<p>Pada gambar di atas, merupakan arsitektur monolitik yang umumnya kita temui pada saat pengembangan aplikasi. Pada sisi frontend kita memiliki device yang berbeda yang dengan kebutuhan yang berbeda beda dan tentu mengakses ke sumber paket yang sama dalam memenuhi kebutuhanya. Pada sisi tengah merupakan package yang di kumpulkan dalam satu wadah yang menerima, memproses dan mengembalikan hasilnya ke pengguna, untuk external APIs dan database merupakan sumber untuk menyimpan dan mengakses data sesuai yang kita butuhkan untuk memenuhi kebutuhan pada sisi frontend.</p>
+<p>Permasalahan yang biasa muncul pada arsitektur monolitik ialah ketika kita mengembangkan sebuah fitur tertentu, pada saat ada perubahan pada satu layanan baik skala besar atau kecil, pada layanan lainya akan ikut berubah salah satunya kita harus mendeploy ulang pada saat merilis fitur tersebut, sehingga akan menggangu layanan-layanan tertentu.</p>
+<p><img src="https://user-images.githubusercontent.com/21150538/72230931-17bbed00-35eb-11ea-8ef7-32c467397a5a.png" alt="image"></p>
+<p>Pada gambar di atas merupakan arsitektur mikroservices, dimana setiap bisnis memiliki paket-paket tertentu yang mewakili proses suatu bisnis. Let's say, kita punya layanan payment, order, checkout. pada gambar di atas anggap saja satu paket payment, satu paket order, dan satu paket checkout, semua memiliki layanan masing-masing dan dan mewakili bisnis-bisnis tertentu.</p>
+<h2 id="kelebihan-dan-kekurangan">Kelebihan dan kekurangan.</h2>
+<ul>
+<li>
+<p>Kelebihanan</p>
+<ul>
+<li>Mimiliki ukuran yang kecil, Microservices merupakan implementasi dari SOA, Layanan ini hanya mengimplementasikan satu proses bisnis saja sehingga memiliki ukuran kecil, tidak seperti monolitik yang mengimplementasikan banyak bisnis sehingga memiliki ukuran yang sangat besar.</li>
+<li>Fokus ke satu layanan, Mikroservices di desain untuk satu layanan bisnis dan mampu memberikan layanan sesuai dengan kebutuhan bisnis.</li>
+<li>Otonom, Microservices harus bersifat otonom, sehingga setiap layanan tidak saling bergantungan.</li>
+<li>Multi teknologi, Micriservice mendukung berbagai teknologi untuk saling berkomunikasi satu sama lain dalam suatu layanan bisnis. sehingga mampu dan dapat mengimplementasikan teknologi yang sesuai dan benar sehingga menghasilakan layanan yang aman, cepat, dan stabil.</li>
+<li>Mudah di delpoy.</li>
+</ul>
+</li>
+<li>
+<p>Kekurangan</p>
+<ul>
+<li>Sistem terdistribusi (distributed system) lebih sulit diprogram, karena Remote Call lamban dan selalu memiliki resiko terjadinya kegagalan.</li>
+<li>Biaya mahal, karena memiliki banyak server untuk melayani masing masing layanan bisnis.</li>
+<li>Deployment yang kompleks.</li>
+</ul>
+</li>
+</ul>
 <ul class="pa0">
   
    <li class="list">
