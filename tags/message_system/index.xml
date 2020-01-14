@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>message_system on Jihar Al Gifari</title>
+    <link>https://jiharal.github.io/tags/message_system/</link>
+    <description>Recent content in message_system on Jihar Al Gifari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 11:46:43 +0700</lastBuildDate>
+    
+	<atom:link href="https://jiharal.github.io/tags/message_system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache Kafka VS RabbitMQ</title>
+      <link>https://jiharal.github.io/posts/apache_kafka/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/apache_kafka/</guid>
+      <description>Apa itu Kafka dan RabbitMQ Kafka Kafka adalah sebuah message broker yang memungkinkan sistem dapat memproses, menyimpan, dan mengelola kembali data yang sebelumnya disimpan apabila terjadi kehilangan.
+RabbitMQ RabbitMQ adalah sebuah message broker yang mendukung bererapa protokol diantaranya MQTT, AMQP, dan STOMP, dan dapat menangani berbagai macam studi kasus seperti online payment proccess, handler backgorund jobs. Bahkan dapat bertindak sebagai perantara antar microsevices.
+Manfaat kegunaan Kafka.  Reliability, Terdistribusi, patitioned, replicated and fault tolerance.</description>
+    </item>
+    
+  </channel>
+</rss>

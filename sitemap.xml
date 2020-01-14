@@ -3,22 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jiharal.github.io/tags/amqp/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/apache_kafka/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/brokers/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jiharal.github.io/categories/</loc>
-    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/consumers/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/follower/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jiharal.github.io/</loc>
-    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/kafka/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/message_system/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/mqtt/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/posts/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/rabitmq/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/categories/teori/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jiharal.github.io/tags/teori/</loc>
+    <lastmod>2020-01-13T11:46:43+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://jiharal.github.io/posts/microservices/</loc>
-    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/categories/microservices/</loc>
     <lastmod>2020-01-11T19:59:47+07:00</lastmod>
   </url>
   
@@ -28,17 +88,7 @@
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/posts/</loc>
-    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/tags/</loc>
-    <lastmod>2020-01-11T19:59:47+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jiharal.github.io/categories/teori/</loc>
+    <loc>https://jiharal.github.io/categories/microservices/</loc>
     <lastmod>2020-01-11T19:59:47+07:00</lastmod>
   </url>
   
@@ -73,12 +123,12 @@
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/categories/thread/</loc>
+    <loc>https://jiharal.github.io/tags/thread/</loc>
     <lastmod>2020-01-05T21:02:32+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/tags/thread/</loc>
+    <loc>https://jiharal.github.io/categories/thread/</loc>
     <lastmod>2020-01-05T21:02:32+07:00</lastmod>
   </url>
   
@@ -88,12 +138,12 @@
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/categories/thread-pool/</loc>
+    <loc>https://jiharal.github.io/tags/thread-pool/</loc>
     <lastmod>2020-01-05T21:02:32+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/tags/thread-pool/</loc>
+    <loc>https://jiharal.github.io/categories/thread-pool/</loc>
     <lastmod>2020-01-05T21:02:32+07:00</lastmod>
   </url>
   
@@ -108,12 +158,12 @@
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/tags/financial/</loc>
+    <loc>https://jiharal.github.io/categories/financial/</loc>
     <lastmod>2019-12-18T22:43:05+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jiharal.github.io/categories/financial/</loc>
+    <loc>https://jiharal.github.io/tags/financial/</loc>
     <lastmod>2019-12-18T22:43:05+07:00</lastmod>
   </url>
   

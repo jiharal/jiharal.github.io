@@ -6,10 +6,91 @@
     <description>Recent content in Tags on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jan 2020 19:59:47 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2020 11:46:43 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>amqp</title>
+      <link>https://jiharal.github.io/tags/amqp/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/amqp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brokers</title>
+      <link>https://jiharal.github.io/tags/brokers/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/brokers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consumers</title>
+      <link>https://jiharal.github.io/tags/consumers/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/consumers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>follower</title>
+      <link>https://jiharal.github.io/tags/follower/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/follower/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kafka</title>
+      <link>https://jiharal.github.io/tags/kafka/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>message_system</title>
+      <link>https://jiharal.github.io/tags/message_system/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/message_system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mqtt</title>
+      <link>https://jiharal.github.io/tags/mqtt/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/mqtt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rabitmq</title>
+      <link>https://jiharal.github.io/tags/rabitmq/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/rabitmq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teori</title>
+      <link>https://jiharal.github.io/tags/teori/</link>
+      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/teori/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>microservices</title>
