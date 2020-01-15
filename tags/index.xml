@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2020 11:46:43 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 09:42:42 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Asynchronous</title>
+      <link>https://jiharal.github.io/tags/asynchronous/</link>
+      <pubDate>Wed, 15 Jan 2020 09:42:42 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/asynchronous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synchronous</title>
+      <link>https://jiharal.github.io/tags/synchronous/</link>
+      <pubDate>Wed, 15 Jan 2020 09:42:42 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/synchronous/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teori</title>
+      <link>https://jiharal.github.io/tags/teori/</link>
+      <pubDate>Wed, 15 Jan 2020 09:42:42 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/tags/teori/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>amqp</title>
@@ -80,15 +107,6 @@
       <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
       
       <guid>https://jiharal.github.io/tags/rabitmq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>teori</title>
-      <link>https://jiharal.github.io/tags/teori/</link>
-      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
-      
-      <guid>https://jiharal.github.io/tags/teori/</guid>
       <description></description>
     </item>
     

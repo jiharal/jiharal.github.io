@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>teori on Jihar Al Gifari</title>
-    <link>https://jiharal.github.io/tags/teori/</link>
-    <description>Recent content in teori on Jihar Al Gifari</description>
+    <title>Asynchronous on Jihar Al Gifari</title>
+    <link>https://jiharal.github.io/tags/asynchronous/</link>
+    <description>Recent content in Asynchronous on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jan 2020 09:42:42 +0700</lastBuildDate>
     
-	<atom:link href="https://jiharal.github.io/tags/teori/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jiharal.github.io/tags/asynchronous/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>https://jiharal.github.io/posts/perbedaan-proses-antara-synchronous-dengan-asynchronous/</guid>
       <description>Proses Synchronous Pada gambar di atas, Tampak jelas bahwa setiap kali service A melakukan request ke service B kita harus menunggu prosesnya selesai agar mendapatkan respon dari service B. Synchronous sangat tepat untuk di implementasikan ketika aplikasi membutuhkan nilai balik/response.
 Proses Asynchronous Setiap kali kita mau mengimplementasikan proses ini, biasanya membutuhkan sebuah message broker sebagai penengah antar service. dengan adanya message broker ini biasanya proses pengerjaan dari sebuah permintaan biasanya akan lebih cepat karena masing-masing menjalankan tugas sesuai dengan bisnis logic yang telah diterapkan.</description>
-    </item>
-    
-    <item>
-      <title>Apache Kafka VS RabbitMQ</title>
-      <link>https://jiharal.github.io/posts/apache_kafka/</link>
-      <pubDate>Mon, 13 Jan 2020 11:46:43 +0700</pubDate>
-      
-      <guid>https://jiharal.github.io/posts/apache_kafka/</guid>
-      <description>Apa itu Kafka dan RabbitMQ Kafka Kafka adalah sebuah message broker yang memungkinkan sistem dapat memproses, menyimpan, dan mengelola kembali data yang sebelumnya disimpan apabila terjadi kehilangan.
-RabbitMQ RabbitMQ adalah sebuah message broker yang mendukung bererapa protokol diantaranya MQTT, AMQP, dan STOMP, dan dapat menangani berbagai macam studi kasus seperti online payment proccess, handler backgorund jobs. Bahkan dapat bertindak sebagai perantara antar microsevices.
-Manfaat kegunaan Kafka.  Reliability, Terdistribusi, patitioned, replicated and fault tolerance.</description>
     </item>
     
   </channel>

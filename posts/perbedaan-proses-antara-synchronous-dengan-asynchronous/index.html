@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Jihar Al Gifari  | Perbedaan Proses Antara Synchronous Dengan Asynchronous</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.62.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Perbedaan Proses Antara Synchronous Dengan Asynchronous" />
+<meta property="og:description" content="Proses Synchronous Pada gambar di atas, Tampak jelas bahwa setiap kali service A melakukan request ke service B kita harus menunggu prosesnya selesai agar mendapatkan respon dari service B. Synchronous sangat tepat untuk di implementasikan ketika aplikasi membutuhkan nilai balik/response.
+Proses Asynchronous Setiap kali kita mau mengimplementasikan proses ini, biasanya membutuhkan sebuah message broker sebagai penengah antar service. dengan adanya message broker ini biasanya proses pengerjaan dari sebuah permintaan biasanya akan lebih cepat karena masing-masing menjalankan tugas sesuai dengan bisnis logic yang telah diterapkan." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jiharal.github.io/posts/perbedaan-proses-antara-synchronous-dengan-asynchronous/" />
+<meta property="article:published_time" content="2020-01-15T09:42:42+07:00" />
+<meta property="article:modified_time" content="2020-01-15T09:42:42+07:00" />
+<meta itemprop="name" content="Perbedaan Proses Antara Synchronous Dengan Asynchronous">
+<meta itemprop="description" content="Proses Synchronous Pada gambar di atas, Tampak jelas bahwa setiap kali service A melakukan request ke service B kita harus menunggu prosesnya selesai agar mendapatkan respon dari service B. Synchronous sangat tepat untuk di implementasikan ketika aplikasi membutuhkan nilai balik/response.
+Proses Asynchronous Setiap kali kita mau mengimplementasikan proses ini, biasanya membutuhkan sebuah message broker sebagai penengah antar service. dengan adanya message broker ini biasanya proses pengerjaan dari sebuah permintaan biasanya akan lebih cepat karena masing-masing menjalankan tugas sesuai dengan bisnis logic yang telah diterapkan.">
+<meta itemprop="datePublished" content="2020-01-15T09:42:42&#43;07:00" />
+<meta itemprop="dateModified" content="2020-01-15T09:42:42&#43;07:00" />
+<meta itemprop="wordCount" content="201">
+
+
+
+<meta itemprop="keywords" content="Synchronous,Asynchronous,teori," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Perbedaan Proses Antara Synchronous Dengan Asynchronous"/>
+<meta name="twitter:description" content="Proses Synchronous Pada gambar di atas, Tampak jelas bahwa setiap kali service A melakukan request ke service B kita harus menunggu prosesnya selesai agar mendapatkan respon dari service B. Synchronous sangat tepat untuk di implementasikan ketika aplikasi membutuhkan nilai balik/response.
+Proses Asynchronous Setiap kali kita mau mengimplementasikan proses ini, biasanya membutuhkan sebuah message broker sebagai penengah antar service. dengan adanya message broker ini biasanya proses pengerjaan dari sebuah permintaan biasanya akan lebih cepat karena masing-masing menjalankan tugas sesuai dengan bisnis logic yang telah diterapkan."/>
+
+    <script data-ad-client="ca-pub-6469211032618440" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://jiharal.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Jihar Al Gifari
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts" title="Blogs page">
+              Blogs
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/categories" title="Categories page">
+              Categories
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Perbedaan Proses Antara Synchronous Dengan Asynchronous</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-01-15T09:42:42&#43;07:00">January 15, 2020</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="proses-synchronous">Proses Synchronous</h2>
+<p><img src="https://user-images.githubusercontent.com/21150538/72401088-a9f3fa80-377d-11ea-8553-5b256bfefc92.png" alt="image"></p>
+<p>Pada gambar di atas, Tampak jelas bahwa setiap kali service A melakukan request ke service B kita harus menunggu prosesnya selesai agar mendapatkan respon dari service B. Synchronous sangat tepat untuk di implementasikan ketika aplikasi membutuhkan nilai balik/response.</p>
+<h2 id="proses-asynchronous">Proses Asynchronous</h2>
+<p>Setiap kali kita mau mengimplementasikan proses ini, biasanya membutuhkan sebuah message broker sebagai penengah antar service. dengan adanya message broker ini biasanya proses pengerjaan dari sebuah permintaan biasanya akan lebih cepat karena masing-masing menjalankan tugas sesuai dengan bisnis logic yang telah diterapkan. message broker disini berperan sebagai pembantu melanjutkan tugas dari request A ke request B tanpa meberikan respon balik. Prosesnya dapat di ilustrasikan seperti pada gambar di bawah ini:</p>
+<p><img src="https://user-images.githubusercontent.com/21150538/72401494-c5abd080-377e-11ea-81ff-a00e26537b5d.png" alt="image"></p>
+<p>Proses ini sangat tepat ketika kita mengimplementasikan pada aplikasi yang memiliki proses banyak dan membutuhkan waktu eksekusi yang cepat, dalam artian kita masih bisa mengerjakan proses lain selama proses itu sendiri belum selesai, karena pekerjaan ini sudah di ambil alih oleh message broker.</p>
+<h2 id="apa-perbedaan-keduanya">Apa perbedaan keduanya</h2>
+<p>Synchronous merupakan proses yang digunakan untuk mengimplementasikan sebuah permintaan/request dan selalu mengembalikan sebuah hasil/response berdasarkan pertmintaannya, pada saat proses berlangsung tidak di perbolehkan mengerjakan tugas lain. Sedangkan</p>
+<p>Asynchronous merupakan sebuah proses yang digunakan untuk mengimplementasikan sebuah permintaan/request tanpa nilai balik.</p>
+<h3 id="reference">Reference</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=N5Ky-mz6n-8">Youtube</a></li>
+<li><a href="https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-does-it-really-mean">Stackoverflow</a></li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/synchronous" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Synchronous</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/asynchronous" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Asynchronous</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/teori" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">teori</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/apache_kafka/">Apache Kafka VS RabbitMQ</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jiharal.github.io/" >
+    &copy; 2020 Jihar Al Gifari
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

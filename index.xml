@@ -6,10 +6,20 @@
     <description>Recent content on Jihar Al Gifari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2020 11:46:43 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 09:42:42 +0700</lastBuildDate>
     
 	<atom:link href="https://jiharal.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Perbedaan Proses Antara Synchronous Dengan Asynchronous</title>
+      <link>https://jiharal.github.io/posts/perbedaan-proses-antara-synchronous-dengan-asynchronous/</link>
+      <pubDate>Wed, 15 Jan 2020 09:42:42 +0700</pubDate>
+      
+      <guid>https://jiharal.github.io/posts/perbedaan-proses-antara-synchronous-dengan-asynchronous/</guid>
+      <description>Proses Synchronous Pada gambar di atas, Tampak jelas bahwa setiap kali service A melakukan request ke service B kita harus menunggu prosesnya selesai agar mendapatkan respon dari service B. Synchronous sangat tepat untuk di implementasikan ketika aplikasi membutuhkan nilai balik/response.
+Proses Asynchronous Setiap kali kita mau mengimplementasikan proses ini, biasanya membutuhkan sebuah message broker sebagai penengah antar service. dengan adanya message broker ini biasanya proses pengerjaan dari sebuah permintaan biasanya akan lebih cepat karena masing-masing menjalankan tugas sesuai dengan bisnis logic yang telah diterapkan.</description>
+    </item>
     
     <item>
       <title>Apache Kafka VS RabbitMQ</title>
