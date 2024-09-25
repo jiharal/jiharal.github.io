@@ -1,1 +1,40 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered SVG Example</title>
+    <style>
+        /* Make the body take the full height of the screen */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+            background-color: #f0f0f0; /* Optional: Background color */
+        }
+
+        /* Make the object take the full screen */
+        .svg-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+        }
+
+        .svg-object {
+            width: 100%;  /* Take the full width of the screen */
+            height: 100%; /* Take the full height of the screen */
+        }
+    </style>
+</head>
+<body>
+    <div class="svg-container">
+        <object class="svg-object" type="image/svg+xml" data="https://jiharal.github.io/img/1.svg"></object>
+        <object class="svg-object" type="image/svg+xml" data="https://jiharal.github.io/img/1.svg"></object>
+    </div>
+</body>
+</html>
